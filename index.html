@@ -8,46 +8,163 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <script src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
+
     <title>Meu Portfólio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Adelmo Menezes</a>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand textoBranco" href="#">Adelmo Menezes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+        
+          <ul class="navbar-nav mr-auto">
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoBranco" href="#sobreme">Sobre me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoBranco" href="#depoimento">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoBranco" href="#contato">Contato</a>
+            </li>
+          </ul>
         </div>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Depoimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-        </ul>
       </nav>
       
       <!--------------------------------------------------------------------------------------------------------------------------------------------->
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center corPrimaria">
         <div class="container">
-          <img src="adelmo.jpg" alt="Adelmo">
-          <h1 class="jumbotron-heading">Adelmo Menezes</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+            <img class="foto-perfil" src="static/img/adelmo.jpg" alt="Adelmo">
+          <h1 class="jumbotron-heading textoBranco">Adelmo Menezes</h1>
+          <p class="lead textoBranco">Software Developer - criador de conteudo Aluno</p>
           <p>
-            <a href="#" class="btn btn-dark my-2">Contato</a>
+            <a href="#contato" class="btn btn-dark my-2">Contato</a>
           </p>
+          <a target="_blank" class="social" href="https://github.com/AdelmoMenezes123"><i class="textoBranco icones fab fa-github"></i></a>
+          <a target="_blank" class="social" href="https://gitlab.com/Adelmo.Menezes"><i class="textoBranco icones fab fa-gitlab"></i></a>
+          <a target="_blank" class="social" href="https://www.instagram.com/adelmo_menezes1"><i class="textoBranco icones fab fa-instagram"></i></a>
+          <a target="_blank" class="social" href="https://www.linkedin.com/in/adelmomenezes/"><i class="textoBranco icones fab fa-linkedin"></i></a>
         </div>
       </section>
-     
+      <!--------------------------------------------------------------------------------------------------------------------------------------------->   
+      <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+          <h2 class="jumbotron-heading text-center titulosVerde">Projetos</h2>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" src="static/img/projetos/bymoto.png" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Durante meu estagio na empresa <span><a class="quick" target="_blank" href="https://quickup.io/">Quickup</a></span>, participei do projeto By-moto by-moto-passageiro. </p>
+                  <ul>
+                    Mentor:  <a target="_blank" class="social" href="https://www.linkedin.com/in/argolo/">Andre argolo  <i class="icones fab fa-linkedin"></i></a>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-primary"><a target="_blank" href="https://apps.apple.com/br/app/by-moto-passageiro/id1492098604">View</a></button>                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+            <!---------------------------------->
+            <div class="col-md-5">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" src="static/img/projetos/bymotodriver.jpeg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Durante meu estagio na empresa <span><a class="quick" target="_blank" href="https://quickup.io/">Quickup</a></span>, participei do projeto By-moto by-moto-motociclista. </p>
+                  <ul>
+                    Mentor:  <a target="_blank" class="social" href="https://www.linkedin.com/in/argolo/">Andre argolo  <i class="icones fab fa-linkedin"></i></a>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-primary"><a target="_blank" href="https://apps.apple.com/br/app/by-moto-motociclista/id1491961184">View</a></button>                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--------------------------------------------------------------------------------------------------------------------------------------------->
-    <!-- Optional JavaScript -->
+      <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+          <h2 class="jumbotron-heading titulosBranco" id="sobreme">Sobre me</h2>
+          <p class="lead text-justify textoBranco ">O mais interessante na área de desenvolvimento é o ambiente participativo e democrático,
+            onde as pessoas esperam que você posicione sua voz e mostre as habilidades que você possui. Dessa forma 
+            você também pode ouvir o outro e aquele ambiente se torna um um local de compartilhamento e aprendizado.<br>
+            
+            Atualmente estou buscando aprimorar meus conhecimentos e habilidades afim de me tornar um profissional mais 
+            capacitado e assim tornar o ambiente de trabalho mas eficiente com a minha presença.</p>
+        </div>
+      </section>
+      <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <section class="jumbotron text-center " style="background-color: white;">
+        <div class="container">
+          <h2 class="jumbotron-heading text-center titulosVerde" id="depoimento">Depoimentos</h2>
+
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer"> Quickup/StartOnApp <cite title="Source Title">  
+              <a target="_blank" class="social" href="https://www.linkedin.com/in/argolo/">Andre Argolo
+                <i class="icones fab fa-linkedin"></i
+              ></a>
+            </cite></footer>
+          </blockquote>
+          
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer"> Quickup <cite title="Source Title">  
+              <a target="_blank" class="social" href="https://www.linkedin.com/in/leonardo-costa-945056120/">Leo Costa
+                <i class="icones fab fa-linkedin"></i
+              ></a>
+            </cite></footer>
+          </blockquote>
+
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer"> Quickup <cite title="Source Title">  
+              <a target="_blank" class="social" href="https://www.linkedin.com/in/felipe-gomes-45168375/">Felipe Souza
+                <i class="icones fab fa-linkedin"></i
+              ></a>
+            </cite></footer>
+          </blockquote>
+        </div>
+      </section>
+      <!--------------------------------------------------------------------------------------------------------------------------------------------->
+      <section class="corPrimaria" id="contato">
+        <div>
+          <div class="container-fluid">
+            <h3 style="padding-top: 60px;" class="text-center titulosBranco">Disponivel para oportunidades</h3>
+            <a href="mailto:adelmo.menezes2010@hotmail.com">  
+              <h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">adelmo.menezes2010@hotmail.com</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------------------------------------------------------------------------------------------------------------->
+      <footer class="text-center corSecundaria textFooter">
+        <p class="textoBranco">Copyright 2020 Adelmo Menezes</p>
+      </footer>
+
+      <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
