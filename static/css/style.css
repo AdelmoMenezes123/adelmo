@@ -12,6 +12,11 @@ a:link{
     text-decoration:none;
 }
 
+.spanColor{
+    color: #2c3e50;
+}
+
+
 .foto-perfil{
     height: 100%;
     width: 25%;
