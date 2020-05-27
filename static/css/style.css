@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 a:link{
     text-decoration:none;
 }
@@ -22,6 +23,18 @@ a:link{
     width: 25%;
     max-width: 100%;
     border-radius: 50%;
+}
+ 
+.btn-contato{
+    background: #18bc9c;
+    border: 0;
+    border-radius: 10%;
+    padding: 15px;
+    color:black;
+}
+
+.inicio{
+   background-image: url(https://i.imgur.com/IfRic9n.png);   
 }
 
 .social{
@@ -46,7 +59,7 @@ p{
 }
 
 .icones{
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .titulosBranco{
