@@ -3,5 +3,4 @@
 
 ### https://adelmomenezes123.github.io/adelmo/
 
-
-![Dashboard](https://imgur.com/a/yCjQ5dE)
+![Dashboard](https://i.imgur.com/r38vpZT.png)
