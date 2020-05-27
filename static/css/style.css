@@ -20,7 +20,7 @@ a:link{
 
 .foto-perfil{
     height: 100%;
-    width: 25%;
+    width: 28%;
     max-width: 100%;
     border-radius: 50%;
 }
@@ -36,6 +36,17 @@ a:link{
 .inicio{
    background-image: url(https://i.imgur.com/IfRic9n.png);   
 }
+
+.icon{
+    
+    padding-left: 7px;
+    font-size: 30px;
+}
+
+.github{color: black !important;}
+.gitlab{color: #FF4500 !important;}
+.instagram{color:  #f82790 !important;}
+.linkedin{color: #007bb6 !important;}
 
 .social{
     margin: 4px;
