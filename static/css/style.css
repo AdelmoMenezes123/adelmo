@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-weight: bold;
 }
 
 html{
@@ -56,6 +57,19 @@ a:link{
     color: #ff0d78;
 }
 
+.citacao{
+    color: #fff;
+}
+
+.depoimento{
+    margin-bottom: 5vh;
+}
+
+.projeto{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
 .corPrimaria{
     background-color: #18bc9c;
 }
@@ -79,7 +93,7 @@ p{
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: #18bc9c;
 }
 
 .titulosVerde{
@@ -88,15 +102,37 @@ p{
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #18bc9c;
+    color: #2c3e50;
 }
 
 .textoBranco{
    color: white !important;
+   font-weight: bold;
+}
+
+.cont-carrousel{
+    padding-top:15vh;
+    padding-bottom: 25vh;
+}
+
+.certificado{
+    margin-top: 7vh;
+}
+
+.besq{
+    margin-left: 50px;
+    font-size: 40px;
+    color: #2c3e50;
+}
+
+.bdir{
+    margin-right: 50px;
+    font-size: 40px;
+    color: #2c3e50;
 }
 
 .jumbotron-heading{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .jumbotron{
     margin-bottom: 0px;
@@ -106,4 +142,11 @@ p{
     margin: 0px;
     padding-bottom: 15px;
     padding-top:15px;
+}
+
+
+h5{
+    padding-bottom: 60px;
+    margin-bottom:0px;
+    color: black;
 }
