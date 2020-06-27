@@ -160,11 +160,23 @@ p {
         background: #bfbbba;
         border: 1px solid;
     }
+}
+
+@media (max-width: 365px) {
+    .img-fluid {
+        width: 51%;
+        padding-left: 0px;
+        margin-right: -20;
+        margin-left: -20;
+    }
+}
+
+@media (min-width: 367px) {
     .img-fluid {
         width: 57%;
         padding-left: 0px;
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: -20;
+        margin-left: -20;
     }
 }
 
@@ -174,13 +186,6 @@ p {
     border: 1px solid;
     margin-right: -10;
     margin-left: -10;
-}
-
-.img-fluid {
-    width: 45%;
-    padding-left: 0px;
-    margin-right: -20;
-    margin-left: -20;
 }
 
 .besq {
