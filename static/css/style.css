@@ -137,7 +137,7 @@ p {
     font-weight: bold;
     float: left;
     border-bottom-style: double;
-    margin-top: 26vh;
+    /* margin-top: 26vh; */
     border-top-style: double;
 }
 
