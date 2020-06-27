@@ -153,7 +153,20 @@ p {
     grid-template: repeat(1, 1fr) / repeat(1, 1fr);
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 550px) {
+    .certif {
+        margin-right: 5px;
+        margin-left: 5px;
+        background: #bfbbba;
+        border: 1px solid;
+    }
+    .img-fluid {
+        width: 48%;
+        padding-left: 7px;
+        margin-right: -183px;
+        margin-left: -191px;
+    }
+}
 
 .certif {
     margin-right: 5px;
@@ -163,6 +176,9 @@ p {
 
 .img-fluid {
     width: 43%;
+    padding-left: 0px;
+    margin-right: -183px;
+    margin-left: -191px;
 }
 
 .besq {
