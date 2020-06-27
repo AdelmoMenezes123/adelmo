@@ -155,30 +155,32 @@ p {
 
 @media screen and (max-width: 550px) {
     .certif {
-        margin-right: 5px;
+        margin-right: 15px;
         margin-left: 5px;
         background: #bfbbba;
         border: 1px solid;
     }
     .img-fluid {
-        width: 48%;
-        padding-left: 7px;
-        margin-right: -183px;
-        margin-left: -191px;
+        width: 57%;
+        padding-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
 .certif {
-    margin-right: 5px;
+    margin-right: 15px;
     background: #bfbbba;
     border: 1px solid;
+    margin-right: -10;
+    margin-left: -10;
 }
 
 .img-fluid {
-    width: 43%;
+    width: 45%;
     padding-left: 0px;
-    margin-right: -183px;
-    margin-left: -191px;
+    margin-right: -20;
+    margin-left: -20;
 }
 
 .besq {
@@ -207,10 +209,32 @@ p {
     padding-top: 15px;
 }
 
-h5 {
+@media screen and (max-width: 340px) {
+    h6 {
+        padding-bottom: 60px;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    h6 {
+        padding-bottom: 60px;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+h6 {
     padding-bottom: 60px;
     margin-bottom: 0px;
     color: black;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .borda {
