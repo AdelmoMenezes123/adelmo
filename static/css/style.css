@@ -129,15 +129,11 @@ p {
 }
 
 .nameTitulo {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
-    text-decoration: none;
-    font-weight: bold;
     text-decoration: none;
     font-weight: bold;
     float: left;
     border-bottom-style: double;
-    /* margin-top: 26vh; */
     border-top-style: double;
 }
 
@@ -166,7 +162,7 @@ p {
 }
 
 .img-fluid {
-    width: 60%;
+    width: 43%;
 }
 
 .besq {
