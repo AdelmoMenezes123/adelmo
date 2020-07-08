@@ -10,43 +10,50 @@ var dateCertificado = [{
     {
         id: 2,
         nome: 'Front-end em Angular',
-        imgFrente: 'https://imgur.com/vIHfnkr.jpg',
+        // https://imgur.com/vIHfnkr.jpg
+        imgFrente: 'static/img/certificados/DEV-FRONT-ANGULA.jpg',
         imgFundo: 'static/img/inicio-Certificado/ANGULAR.png'
     },
     {
         id: 3,
         nome: 'JavaScript ES6',
-        imgFrente: 'https://i.imgur.com/ohY0dl1.jpg',
+        // https://i.imgur.com/ohY0dl1.jpg
+        imgFrente: 'static/img/certificados/JS-ES6.jpg',
         imgFundo: 'static/img/inicio-Certificado/JS-ES6.png'
     },
     {
         id: 4,
         nome: 'HTML5 e CSS3',
-        imgFrente: 'http://i.imgur.com/XHKwCf5.jpg',
+        // http://i.imgur.com/XHKwCf5.jpg
+        imgFrente: 'static/img/certificados/HTML-e-CSS.jpg',
         imgFundo: 'static/img/inicio-Certificado/HTML-e-CSS.png'
     },
     {
         id: 5,
         nome: 'Bootstrap',
-        imgFrente: 'http://i.imgur.com/eYhqIJJ.jpg',
+        // http://i.imgur.com/eYhqIJJ.jpg
+        imgFrente: 'static/img/certificados/BOOTSTREP.jpg',
         imgFundo: 'static/img/inicio-Certificado/BOOTSTREP.png'
     },
     {
         id: 6,
         nome: 'GitHub',
-        imgFrente: 'http://i.imgur.com/RwH7vYS.jpg',
+        // http://i.imgur.com/RwH7vYS.jpg
+        imgFrente: 'static/img/certificados/GITHUB.jpg',
         imgFundo: 'static/img/inicio-Certificado/GITHUB.png'
     },
     {
         id: 7,
         nome: 'Git',
-        imgFrente: 'https://i.imgur.com/hTtRKRq.jpg',
+        // https://i.imgur.com/hTtRKRq.jpg
+        imgFrente: 'static/img/certificados/GIT.jpg',
         imgFundo: 'static/img/inicio-Certificado/GIT.png'
     },
     {
         id: 8,
         nome: 'SCRUM',
-        imgFrente: 'https://imgur.com/02aDNty.jpg',
+        // https://imgur.com/02aDNty.jpg
+        imgFrente: 'static/img/certificados/SCRUM.jpg',
         imgFundo: 'static/img/inicio-Certificado/SCRUM.png'
     }
 ]
