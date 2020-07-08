@@ -19,6 +19,18 @@ a:link {
     color: #2c3e50;
 }
 
+.tgl-botao {
+    background-color: snow;
+    border: 1px solid black;
+}
+
+.nv-link {
+    /* float: right; */
+    text-align: right;
+    line-height: 2rem;
+    ;
+}
+
 .foto-perfil {
     height: 100%;
     width: 28%;
@@ -152,6 +164,8 @@ p {
 .certificado-grid {
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+    opacity: 1;
+    transform: translate3d(-12px, 0px, 0px);
 }
 
 @media screen and (max-width: 550px) {
