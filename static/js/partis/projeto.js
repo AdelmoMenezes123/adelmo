@@ -85,6 +85,7 @@ const view = () => {
         img.setAttribute('src', `${date.img}`)
 
         content.setAttribute('class', 'projeto--content')
+        p.setAttribute('class', 'p')
 
         h2.innerHTML = `${date.title}`
         p.innerHTML = `${date.info}`

@@ -4,7 +4,7 @@
     list-style: none;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: auto;
+    text-decoration: none !important;
 }
 
 html {
@@ -105,7 +105,12 @@ a:link {
 }
 
 p {
-    color: black !important;
+    /* color: black !important; */
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .icones {
@@ -119,6 +124,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: #18bc9c;
+    text-align: center;
 }
 
 .titulosVerde {
@@ -128,6 +134,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: #2c3e50;
+    text-align: center;
 }
 
 .textoBranco {

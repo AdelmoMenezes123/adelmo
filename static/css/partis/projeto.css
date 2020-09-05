@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #16384c;
+    /* background-color: #fff; */
 }
 
 .projeto--container {
@@ -65,10 +65,10 @@
     transition-delay: 0.2s;
 }
 
-.projeto--content p,
-h2,
-ul {
-    color: #fff !important;
+.projeto--card .projeto--content h2,
+ul,
+.p {
+    color: #fff;
     text-align: justify;
     padding: inherit;
     margin-bottom: 0;
