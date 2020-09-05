@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     font-weight: bold;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: auto;
 }
 
@@ -96,11 +96,6 @@ a:link {
     margin-bottom: 5vh;
 }
 
-.projeto {
-    margin-top: 4vh;
-    margin-bottom: 0vh;
-}
-
 .corPrimaria {
     background-color: #18bc9c;
 }
@@ -110,7 +105,6 @@ a:link {
 }
 
 p {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black !important;
 }
 

@@ -1,0 +1,89 @@
+.body--flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16384c;
+}
+
+.projeto--container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.projeto--container .projeto--card {
+    max-width: 300px;
+    position: relative;
+    height: 215px;
+    background-color: #333;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.projeto--container .projeto--card:hover {
+    height: 100%;
+}
+
+.projeto--container .projeto--card .imgBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -60px;
+    left: 14px;
+    z-index: 1;
+    box-shadow: 5px 11px 5px rgba(0, 0, 0, 0.5);
+}
+
+.projeto--container .projeto--card .imgBox img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.projeto--container .projeto--card .projeto--content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.projeto--container .projeto--card:hover .projeto--content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.2s;
+}
+
+.projeto--content p,
+h2,
+ul {
+    color: #fff !important;
+    text-align: justify;
+    padding: inherit;
+    margin-bottom: 0;
+}
+
+.projeto--content ul {
+    margin-top: 1rem;
+}
+
+.projeto--content button {
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
