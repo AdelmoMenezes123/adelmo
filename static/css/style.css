@@ -28,7 +28,6 @@ a:link {
     /* float: right; */
     /* text-align: right; */
     line-height: 2rem;
-    ;
 }
 
 .foto-perfil {
@@ -154,12 +153,10 @@ p {
 .certificado {
     overflow: auto;
     display: flex;
-    margin-bottom: 7vh;
-    display: -webkit-inline-box;
 }
 
 .cert {
-    margin-top: 7vh;
+    margin-top: 3vh;
 }
 
 .certificado-grid {
@@ -169,6 +166,8 @@ p {
     transform: translate3d(-12px, 0px, 0px);
 }
 
+
+/* 
 @media screen and (max-width: 550px) {
     .certif {
         margin-right: 15px;
@@ -180,27 +179,51 @@ p {
 
 @media (max-width: 365px) {
     .img-fluid {
-        width: 51%;
-        padding-left: 0px;
-        margin-right: -20;
-        margin-left: -20;
+        width: 55%;
+        float: right;
+        margin-left: -30vw;
+        position: relative;
+        bottom: 0;
     }
 }
 
 @media (min-width: 367px) {
     .img-fluid {
-        width: 57%;
-        padding-left: 0px;
-        margin-right: -20;
-        margin-left: -20;
-    }
+         width: 0%;
+        float: right;
+        padding-left: 20px;
+         margin-right: -20; 
+        margin-left: -22vw;
+        position: relative;
+        bottom: 0; 
+    } */
+
+
+/* } */
+
+.img-fluid {
+    /* margin: 0 7vw;
+    display: flex; */
+    margin: 0 110px;
+    /* display: flex; */
+    width: 270px;
+    float: right;
+    transform: scale(0.9)
+}
+
+.img-fluid img {
+    width: 100%;
+    height: 244px;
+    margin: 0 0 0 130px;
+    transform: scale(0.8);
 }
 
 .certif {
-    margin-right: 15px;
+    /* margin-right: 15px; */
     background: #bfbbba;
     border: 1px solid;
     box-shadow: 6px 6px 13px 2px #000;
+    transform: scale(0.9);
 }
 
 .box-shadow {

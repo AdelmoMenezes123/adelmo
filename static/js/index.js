@@ -37,21 +37,21 @@ var dateCertificado = [{
     },
     {
         id: 6,
-        nome: 'GitHub',
+        nome: 'GitHub e comandos para trabalhar em equipe',
         // http://i.imgur.com/RwH7vYS.jpg
         imgFrente: 'static/img/certificados/GITHUB.jpg',
         imgFundo: 'static/img/inicio-Certificado/GITHUB.png'
     },
     {
         id: 7,
-        nome: 'Git',
+        nome: 'Git e controle de versões',
         // https://i.imgur.com/hTtRKRq.jpg
         imgFrente: 'static/img/certificados/GIT.jpg',
         imgFundo: 'static/img/inicio-Certificado/GIT.png'
     },
     {
         id: 8,
-        nome: 'SCRUM',
+        nome: 'Projetos ágeis com SCRUM',
         // https://imgur.com/02aDNty.jpg
         imgFrente: 'static/img/certificados/SCRUM.jpg',
         imgFundo: 'static/img/inicio-Certificado/SCRUM.png'
@@ -69,6 +69,7 @@ const gerarCertificados = () => {
         const link = document.createElement('a');
         const span = document.createElement('span');
         const img = document.createElement('img');
+        const certificados = document.createElement('div');
 
 
 
@@ -77,15 +78,16 @@ const gerarCertificados = () => {
         link.setAttribute('href', `${data.imgFrente}`); // atribuindo href e link para a tag (a)
         link.setAttribute('data-size', '1900x1967'); // atribuindo data-size a tag (a)
         span.setAttribute('class', 'nameTitulo');
-        img.setAttribute('class', 'img-fluid');
         img.setAttribute('src', `${data.imgFundo}`);
 
-        //ADICIONANDO CONTEXTO AS TAGS
+        certificados.setAttribute('class', 'img-fluid')
+        certificados.appendChild(img)
+            //ADICIONANDO CONTEXTO AS TAGS
         span.innerHTML = `${data.nome}`; // colocando valor na tag span
 
         // ADCIONANDO NOS CONTAINES FILHOS
         link.appendChild(span); //inserindo a tag span dentro de (a)
-        link.appendChild(img); //inserindo a tag img dentro de (a)
+        link.appendChild(certificados); //inserindo a tag img dentro de (a)
         figure.appendChild(link); // inserindo a tag (a) dentro de figure
 
         // ADICIONANDO AO CONTAINER  PAI PARA TER VIZUALIZACAO NO HTML 
