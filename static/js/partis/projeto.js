@@ -32,6 +32,16 @@ const dados = [{
     },
     {
         id: 4,
+        title: 'Templete-clone-Awax',
+        img: 'static/img/projetos/templete-awax.png',
+        info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
+        list: '<li>HTML</li> <li>CSS / Flex-Box</li>',
+        link_projeto: 'https://templete-awax.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/templete-awax'
+
+    },
+    {
+        id: 5,
         title: 'Templete-Flexbox',
         img: 'static/img/projetos/templete-flexbox.png',
         info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
