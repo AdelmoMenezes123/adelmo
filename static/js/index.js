@@ -1,19 +1,20 @@
 const container = document.querySelector('#abaCertificados');
 
-var dateCertificado = [{
-        id: 1,
-        nome: 'Back-end em PHP',
-        // https://imgur.com/HgqMm2G.jpg
-        imgFrente: 'static/img/certificados/DEV-BACK-PHP.jpg',
-        imgFundo: 'static/img/inicio-Certificado/BACK-PHP.png'
-    },
-    {
-        id: 2,
-        nome: 'Front-end em Angular',
-        // https://imgur.com/vIHfnkr.jpg
-        imgFrente: 'static/img/certificados/DEV-FRONT-ANGULA.jpg',
-        imgFundo: 'static/img/inicio-Certificado/ANGULAR.png'
-    },
+var dateCertificado = [
+    // {
+    //     id: 1,
+    //     nome: 'Back-end em PHP',
+    //     // https://imgur.com/HgqMm2G.jpg
+    //     imgFrente: 'static/img/certificados/DEV-BACK-PHP.jpg',
+    //     imgFundo: 'static/img/inicio-Certificado/BACK-PHP.png'
+    // },
+    // {
+    //     id: 2,
+    //     nome: 'Front-end em Angular',
+    //     // https://imgur.com/vIHfnkr.jpg
+    //     imgFrente: 'static/img/certificados/DEV-FRONT-ANGULA.jpg',
+    //     imgFundo: 'static/img/inicio-Certificado/ANGULAR.png'
+    // },
     {
         id: 3,
         nome: 'JavaScript ES6',
@@ -37,7 +38,7 @@ var dateCertificado = [{
     },
     {
         id: 6,
-        nome: 'GitHub e comandos para trabalhar em equipe',
+        nome: 'GitHub',
         // http://i.imgur.com/RwH7vYS.jpg
         imgFrente: 'static/img/certificados/GITHUB.jpg',
         imgFundo: 'static/img/inicio-Certificado/GITHUB.png'

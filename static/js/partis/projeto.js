@@ -4,7 +4,7 @@ const dados = [{
         id: 1,
         title: 'Z-FLIX',
         img: 'static/img/projetos/zflix.png',
-        info: 'Clone da Netflix, Projeto feito a partir de uma live no youtube ministrada por Bonieky Lacerda. ',
+        info: `Clone da Netflix, Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda. `,
         list: '<li>Consumindo API do site TheMoviedatabase.org</li><li>React</li><li>CSS</li>',
         link_projeto: 'https://z-flix.vercel.app/',
         github: 'https://github.com/AdelmoMenezes123/z-flix'
@@ -44,30 +44,51 @@ const dados = [{
         id: 5,
         title: 'Templete-Flexbox',
         img: 'static/img/projetos/templete-flexbox.png',
-        info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
+        info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
         list: '<li>HTML</li> <li>CSS / Flex-Box</li>',
         link_projeto: 'https://templete-flex.vercel.app/',
         github: 'https://github.com/AdelmoMenezes123/templete-flex'
 
     },
-    {
-        id: 5,
-        title: 'Drogaria',
-        img: 'static/img/projetos/JAVA1.png',
-        info: 'Trabalho de faculdade, Arquitetura de software, Foi usado tecnologias como:',
-        list: '<li>Java</li> <li>Swing</li> <li>SQL / Mysql</li>',
-        ink_projeto: '#',
-        github: 'https://github.com/AdelmoMenezes123/Sistema_java',
+    // {
+    //     id: 6,
+    //     title: 'Drogaria',
+    //     img: 'static/img/projetos/JAVA1.png',
+    //     info: 'Trabalho de faculdade, Arquitetura de software, Foi usado tecnologias como:',
+    //     list: '<li>Java</li> <li>Swing</li> <li>SQL / Mysql</li>',
+    //     ink_projeto: '#',
+    //     github: 'https://github.com/AdelmoMenezes123/Sistema_java',
 
-    },
+    // },
     {
-        id: 6,
+        id: 7,
         title: 'CalculaIMC',
         img: 'static/img/projetos/imc.png',
         info: 'Projeto Calcula IMC',
         list: '<li>HTML</li> <li>CSS</li> <li>JavaScript</li>',
         link_projeto: 'https://calcula-imc.vercel.app',
         github: 'https://github.com/AdelmoMenezes123/calculaIMC',
+
+    },
+    {
+        id: 8,
+        title: 'Calculadora',
+        img: 'static/img/projetos/calculadora.png',
+        info: `Calculadora desenvolvida como exemplo
+         do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+        list: '<li>Feito o backend em JavaScript</li>',
+        link_projeto: 'https://calculadora-plum.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/calculadora',
+
+    },
+    {
+        id: 9,
+        title: 'usando-api-cep',
+        img: 'static/img/projetos/consulta-cep.png',
+        info: 'Projeto para consulta o cep usando api do correio',
+        list: '<li>HTML</li> <li>CSS</li> <li>JavaScript</li>',
+        link_projeto: 'https://usando-api-cep.vercel.app',
+        github: 'https://github.com/AdelmoMenezes123/usando-api-cep ',
 
     },
 ]
