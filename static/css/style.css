@@ -47,6 +47,12 @@ a:link {
 
 .inicio {
     background-image: url(../img/FUNDO.png);
+    background-size: contain;
+}
+
+#hom.inicio:hover, #depoimento.inicio:hover{
+    background: linear-gradient(18deg, #111 30%,#B28756);
+    
 }
 
 .pd-down-up {
@@ -137,9 +143,13 @@ p {
 }
 
 .textoBranco {
-    color: white !important;
+    /* color: #B28756 !important; */
     font-weight: bold;
+    color: snow !important;
 }
+
+
+
 
 .nameTitulo {
     color: #000;

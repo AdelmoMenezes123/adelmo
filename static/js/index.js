@@ -8,13 +8,13 @@ var dateCertificado = [
     //     imgFrente: 'static/img/certificados/DEV-BACK-PHP.jpg',
     //     imgFundo: 'static/img/inicio-Certificado/BACK-PHP.png'
     // },
-    // {
-    //     id: 2,
-    //     nome: 'Front-end em Angular',
-    //     // https://imgur.com/vIHfnkr.jpg
-    //     imgFrente: 'static/img/certificados/DEV-FRONT-ANGULA.jpg',
-    //     imgFundo: 'static/img/inicio-Certificado/ANGULAR.png'
-    // },
+    {
+        id: 2,
+        nome: 'Front-end em Angular',
+        // https://imgur.com/vIHfnkr.jpg
+        imgFrente: 'static/img/certificados/DEV-FRONT-ANGULA.jpg',
+        imgFundo: 'static/img/inicio-Certificado/ANGULAR.png'
+    },
     {
         id: 3,
         nome: 'JavaScript ES6',
