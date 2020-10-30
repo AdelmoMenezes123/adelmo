@@ -60,8 +60,20 @@ const dados = [{
     //     github: 'https://github.com/AdelmoMenezes123/Sistema_java',
 
     // },
+    
     {
         id: 7,
+        title: 'IMC com react',
+        img: 'static/img/projetos/imc-react.png',
+        info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
+        list: '<li>React</li> <li>SASS</li> <li>Material-ui</li>',
+        link_projeto: 'https://imc-three.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/imc',
+
+    },
+    
+    {
+        id: 8,
         title: 'CalculaIMC',
         img: 'static/img/projetos/imc.png',
         info: 'Projeto Calcula IMC',
@@ -71,7 +83,7 @@ const dados = [{
 
     },
     {
-        id: 8,
+        id: 9,
         title: 'Calculadora',
         img: 'static/img/projetos/calculadora.png',
         info: `Calculadora desenvolvida como exemplo
@@ -82,7 +94,7 @@ const dados = [{
 
     },
     {
-        id: 9,
+        id: 10,
         title: 'usando-api-cep',
         img: 'static/img/projetos/consulta-cep.png',
         info: 'Projeto para consulta o cep usando api do correio',
