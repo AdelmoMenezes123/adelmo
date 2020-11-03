@@ -32,6 +32,16 @@ const dados = [{
     },
     {
         id: 4,
+        title: 'Pizzaria',
+        img: 'static/img/projetos/pizza.png',
+        info: ' Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda.',
+        list: '<li>JavaScript</li>',
+        link_projeto: 'https://pizzaria-eight.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/pizzaria'
+
+    },
+    {
+        id: 4,
         title: 'Templete-clone-Awax',
         img: 'static/img/projetos/templete-awax.png',
         info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
@@ -41,7 +51,7 @@ const dados = [{
 
     },
     {
-        id: 5,
+        id: 6,
         title: 'Templete-Flexbox',
         img: 'static/img/projetos/templete-flexbox.png',
         info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
