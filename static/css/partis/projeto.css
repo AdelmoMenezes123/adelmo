@@ -31,6 +31,7 @@
 
 .projeto--container .projeto--card:hover {
     height: 100%;
+    transition: 0.9s ease-in-out;
 }
 
 .projeto--container .projeto--card .imgBox {
@@ -59,7 +60,7 @@
     border-radius: 36px;
     visibility: hidden;
     opacity: 0;
-    transition: 0.4s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
 
 .projeto--container .projeto--card:hover .projeto--content {
@@ -67,6 +68,7 @@
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.1s;
+    transition: 1.4s ease-in-out;
 }
 
 .projeto--card .projeto--content h2,
