@@ -41,7 +41,7 @@ const dados = [{
 
     },
     {
-        id: 7,
+        id: 5,
         title: 'IMC com react',
         img: 'static/img/projetos/imc-react.png',
         info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
@@ -51,7 +51,7 @@ const dados = [{
 
     },
     {
-        id: 4,
+        id: 6,
         title: 'Pizzaria',
         img: 'static/img/projetos/pizza.png',
         info: ' Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda.',
@@ -61,7 +61,7 @@ const dados = [{
 
     },
     {
-        id: 9,
+        id: 7,
         title: 'Calculadora',
         img: 'static/img/projetos/calculadora.png',
         info: `Calculadora desenvolvida como exemplo
@@ -72,7 +72,7 @@ const dados = [{
 
     },
     {
-        id: 4,
+        id: 8,
         title: 'Templete-clone-Awax',
         img: 'static/img/projetos/templete-awax.png',
         info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
@@ -82,7 +82,7 @@ const dados = [{
 
     },
     {
-        id: 6,
+        id: 9,
         title: 'Templete-Flexbox',
         img: 'static/img/projetos/templete-flexbox.png',
         info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
