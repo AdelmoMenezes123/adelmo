@@ -37,7 +37,7 @@ const dados = [{
         info: ' Trabalho de faculdade para a materia - Gest. Financeira - Calculadora VPL',
         list: '<li>ReactJS</li> <li>Material-ui</li>',
         link_projeto: 'https://trabalho-calcula-vpl.vercel.app/',
-        github: 'https://github.com/AdelmoMenezes123/trabalho-calcula-vpl'
+        github: 'https://trabalho-calculadora-vpl.vercel.app/'
 
     },
     {
