@@ -32,12 +32,43 @@ const dados = [{
     },
     {
         id: 4,
+        title: 'Calculadora VPL',
+        img: 'static/img/projetos/calcula-vpl.png',
+        info: ' Trabalho de faculdade para a materia - Gest. Financeira - Calculadora VPL',
+        list: '<li>ReactJS</li> <li>Material-ui</li>',
+        link_projeto: 'https://trabalho-calcula-vpl.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/trabalho-calcula-vpl'
+
+    },
+    {
+        id: 7,
+        title: 'IMC com react',
+        img: 'static/img/projetos/imc-react.png',
+        info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
+        list: '<li>React</li> <li>SASS</li> <li>Material-ui</li>',
+        link_projeto: 'https://imc-three.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/imc',
+
+    },
+    {
+        id: 4,
         title: 'Pizzaria',
         img: 'static/img/projetos/pizza.png',
         info: ' Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda.',
         list: '<li>JavaScript</li>',
         link_projeto: 'https://pizzaria-eight.vercel.app/',
         github: 'https://github.com/AdelmoMenezes123/pizzaria'
+
+    },
+    {
+        id: 9,
+        title: 'Calculadora',
+        img: 'static/img/projetos/calculadora.png',
+        info: `Calculadora desenvolvida como exemplo
+         do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+        list: '<li>Feito o backend em JavaScript</li>',
+        link_projeto: 'https://calculadora-plum.vercel.app/',
+        github: 'https://github.com/AdelmoMenezes123/calculadora',
 
     },
     {
@@ -59,60 +90,7 @@ const dados = [{
         link_projeto: 'https://templete-flex.vercel.app/',
         github: 'https://github.com/AdelmoMenezes123/templete-flex'
 
-    },
-    // {
-    //     id: 6,
-    //     title: 'Drogaria',
-    //     img: 'static/img/projetos/JAVA1.png',
-    //     info: 'Trabalho de faculdade, Arquitetura de software, Foi usado tecnologias como:',
-    //     list: '<li>Java</li> <li>Swing</li> <li>SQL / Mysql</li>',
-    //     ink_projeto: '#',
-    //     github: 'https://github.com/AdelmoMenezes123/Sistema_java',
-
-    // },
-    
-    {
-        id: 7,
-        title: 'IMC com react',
-        img: 'static/img/projetos/imc-react.png',
-        info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
-        list: '<li>React</li> <li>SASS</li> <li>Material-ui</li>',
-        link_projeto: 'https://imc-three.vercel.app/',
-        github: 'https://github.com/AdelmoMenezes123/imc',
-
-    },
-    
-    {
-        id: 8,
-        title: 'CalculaIMC',
-        img: 'static/img/projetos/imc.png',
-        info: 'Projeto Calcula IMC',
-        list: '<li>HTML</li> <li>CSS</li> <li>JavaScript</li>',
-        link_projeto: 'https://calcula-imc.vercel.app',
-        github: 'https://github.com/AdelmoMenezes123/calculaIMC',
-
-    },
-    {
-        id: 9,
-        title: 'Calculadora',
-        img: 'static/img/projetos/calculadora.png',
-        info: `Calculadora desenvolvida como exemplo
-         do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
-        list: '<li>Feito o backend em JavaScript</li>',
-        link_projeto: 'https://calculadora-plum.vercel.app/',
-        github: 'https://github.com/AdelmoMenezes123/calculadora',
-
-    },
-    {
-        id: 10,
-        title: 'usando-api-cep',
-        img: 'static/img/projetos/consulta-cep.png',
-        info: 'Projeto para consulta o cep usando api do correio',
-        list: '<li>HTML</li> <li>CSS</li> <li>JavaScript</li>',
-        link_projeto: 'https://usando-api-cep.vercel.app',
-        github: 'https://github.com/AdelmoMenezes123/usando-api-cep ',
-
-    },
+    },    
 ]
 
 const view = () => {
