@@ -36,7 +36,7 @@ const dados = [{
         img: 'static/img/projetos/calcula-vpl.png',
         info: ' Trabalho de faculdade para a materia - Gest. Financeira - Calculadora VPL',
         list: '<li>ReactJS</li> <li>Material-ui</li>',
-        link_projeto: 'https://trabalho-calcula-vpl.vercel.app/',
+        link_projeto: 'https://trabalho-calculadora-vpl.vercel.app/',
         github: 'https://trabalho-calculadora-vpl.vercel.app/'
 
     },
